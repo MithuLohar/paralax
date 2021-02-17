@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./paralax.css" />
+  </head>
+
+  <body>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Kemberloo</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">Wah Kaah Deeng Doong Dhang</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section>
+        <div class="image" data-type="background" data-speed="2"></div>
+        <div class="stuff" data-type="content">
+          <h1>Chenaleen</h1>
+          <h2>Charrot</h2>
+        </div>
+      </section>
+
+      <section>
+        <div class="image" data-type="background" data-speed="7"></div>
+        <div class="stuff" data-type="content">
+          <h2>Flangak</h2>
+          <p>Fela morjay sholshenes boom tarat tarat</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="image" data-type="background" data-speed="6"></div>
+        <div class="stuff" data-type="content">
+          <p class="m-b-20">Tongkantangto Kaychong atkaychang</p>
+          <button
+            type="button"
+            class="btn btn-success"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            Booom Paaness
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <div class="image" data-type="background" data-speed="5"></div>
+        <div class="stuff" data-type="content">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </div>
+      </section>
+
+      <section>
+        <div class="image" data-type="background" data-speed="3"></div>
+        <div class="stuff" data-type="content">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo.
+        </div>
+      </section>
+
+      <section>
+        <div class="image" data-type="background" data-speed="3"></div>
+        <div class="stuff" data-type="content">
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+          fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+          sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+          tempora incidunt ut labore et dolore magnam aliquam quaerat
+          voluptatem.
+        </div>
+      </section>
+    </div>
+    <script src="./paralax.js"></script>
+  </body>
+</html>
